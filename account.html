@@ -4,11 +4,87 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="account.css" />
     <title>Multigram</title>
   </head>
   <body>
-    <h1>Account Page</h1>
+    <nav class="navbar">
+      <img src="/images/instagram-logo.png" class="logo" />
+      <div class="nav-buttons">
+        <a href="index.html" class="nav-btn login">Log In</a>
+        <a href="signUp.html" class="nav-btn">Sign up</a>
+      </div>
+    </nav>
+
+    <!-- Profile section -->
+    <div class="profile-container">
+      <div class="profile-header">
+        <img
+          class="profile-pic"
+          src="/images/multiverse-logo.png"
+          alt="Profile Picture"
+        />
+        <div class="profile-info">
+          <h2 class="username">
+            joinmultiverse
+            <img src="/images/verified-check.png" class="verified-icon" />
+          </h2>
+          <div class="action-buttons">
+            <button class="btn">Follow</button>
+            <button class="btn">Message</button>
+          </div>
+          <div class="stats">
+            <span><strong>402</strong> posts</span>
+            <span><strong>17.1k</strong> followers</span>
+            <span><strong>615</strong> following</span>
+          </div>
+          <p><strong>Multiverse</strong></p>
+          <p class="bio">
+            Providing outstanding professional apprenticeships in the UK and US
+            🚀 💫
+          </p>
+        </div>
+      </div>
+
+      <!-- Highlights section -->
+      <div class="highlights">
+        <div class="highlight">
+          <img src="/images/moments-highlight.png" alt="Highlight 1" />
+          <p>Moments</p>
+        </div>
+        <div class="highlight">
+          <img src="/images/events-highlight.png" alt="Highlight 2" />
+          <p>Events</p>
+        </div>
+        <div class="highlight">
+          <img src="/images/apprentice-highlight.png" alt="Highlight 3" />
+          <p>Apprentice Life</p>
+        </div>
+        <div class="highlight">
+          <img src="/images/faq-highlight.png" alt="Highlight 4" />
+          <p>FAQs</p>
+        </div>
+      </div>
+
+      <div class="profile-icons">
+        <img src="/images/grid.png" alt="Grid" />
+        <img src="/images/reels.png" alt="Reels" />
+        <img src="/images/tagged-photo.png" alt="Tagged Photos" />
+      </div>
+
+      <!-- Gallery of Images section -->
+      <div class="gallery">
+        <img src="https://picsum.photos/200" alt="Post 1" />
+        <img src="https://picsum.photos/200" alt="Post 2" />
+        <img src="https://picsum.photos/200" alt="Post 3" />
+        <img src="https://picsum.photos/200" alt="Post 4" />
+        <img src="https://picsum.photos/200" alt="Post 5" />
+        <img src="https://picsum.photos/200" alt="Post 6" />
+        <img src="https://picsum.photos/200" alt="Post 7" />
+        <img src="https://picsum.photos/200" alt="Post 8" />
+        <img src="https://picsum.photos/200" alt="Post 9" />
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
