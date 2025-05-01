@@ -7,8 +7,8 @@
 }
 
 .logo {
-  height: 70px;
-  width: auto;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
 }
 
 .nav-buttons .nav-btn {
