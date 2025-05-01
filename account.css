@@ -1,0 +1,144 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+.nav-buttons .nav-btn {
+  background-color: transparent;
+  border: 1px solid #0095f6;
+  color: #0095f6;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-buttons .login {
+  background-color: #0095f6;
+  color: white;
+}
+
+/* Profile Section */
+.profile-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.username {
+  font-size: 28px;
+  margin: 0;
+}
+
+.verified-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.stats {
+  margin: 10px 0;
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn {
+  padding: 6px 16px;
+  font-size: 14px;
+  margin-top: 6px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #cbc7c784;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.highlights {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  text-align: center;
+}
+
+.highlight img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.highlight p {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #333;
+}
+
+.profile-icons {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #dbdbdb;
+}
+
+.profile-icons img {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
