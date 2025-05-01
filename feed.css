@@ -99,3 +99,7 @@ body{
     margin: 0;
     opacity: 0.5;;
   }
+  .logo {
+    height: 70px;
+    width: auto;
+  }
