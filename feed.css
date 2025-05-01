@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+.logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    color:white
+  }
+  .navbar {
+    width: 98%;
+    background-color:black;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex; 
+    justify-content: space-between;
+  }
+  .nav-item a {
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex; 
+  }
+  .picture-buttons {
+    margin-top: 5px;
+    padding: 2px 3px;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    gap: 100px;
+  }
+  .button-container{
+    display: flex;
+    gap: 6px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    width: 100%
+  }
+  .left-buttons{
+    display: flex;
+    gap: 8px;
+  }
+  .bookmark-button{
+    margin-top: 5px;
+    padding: 2px 3px;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .username {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+  }
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:400px;
+    margin: auto;
+  }
+  .image-container {
+  margin: 20px;
+  border: solid black 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .likes-count{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    font: 200;
+    margin: 2px;
+    margin-left: 0px;
+  }
+  .comments{ 
+    font-size: 1rem;
+    color: white;
+    font: 200;
+    margin: 0;
+  }
+  .postcomments{
+    font-size: .8rem;
+    color: white;
+    font: 200;
+    margin: 0;
+    opacity: 0.5;;
+  }
+  .logo {
+    height: 70px;
+    width: auto;
+  }
